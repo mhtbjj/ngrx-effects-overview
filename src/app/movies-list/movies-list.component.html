@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let movie of movies" (click)="itemClickedEvent.emit(movie)">
+    {{ movie.name }}
+    <button (click)="deleteItem($event, movie.id)">Delete</button>
+  </li>
+</ul>

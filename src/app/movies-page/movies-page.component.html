@@ -1,0 +1,5 @@
+<app-movies-list
+  [movies]="movies$ | async"
+  (deleteEvent)="delete($event)"
+  (itemClickedEvent)="(itemClickedEvent)"
+></app-movies-list>

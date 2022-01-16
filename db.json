@@ -1,0 +1,25 @@
+{
+  "movies": [
+    {
+      "id": 8,
+      "name": "Shutter Island",
+      "genre": "Mystery",
+      "duration": 180,
+      "rating": 8.7
+    },
+    {
+      "id": 10,
+      "name": "Shutter Island",
+      "genre": "Mystery",
+      "duration": 150,
+      "rating": 9
+    },
+    {
+      "id": 11,
+      "name": "American Pie",
+      "genre": "comedy",
+      "duration": 150,
+      "rating": 9
+    }
+  ]
+}
